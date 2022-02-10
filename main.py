@@ -1,3 +1,5 @@
-from core import load_songs
+import core
 
-load_songs("C:/Users/User/PycharmProjects/spotipy/storage/songs")
+core.load_data("C:/Users/User/PycharmProjects/spotipy/storage")
+core.show_console()
+core.show_rest_api()
