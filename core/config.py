@@ -1,1 +1,1 @@
-storage_path = "spotipy/storage"
+songs_path = "spotipy/storag/songs"
