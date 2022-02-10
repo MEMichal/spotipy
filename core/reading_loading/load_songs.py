@@ -8,8 +8,8 @@ artists = {}
 albums = {}
 songs = {}
 
-def load_songs():
-    with open(config.songs_path + "/song_0C9jZPUv4SuaXkuEQw6L40.json") as jsonFile:
+def load_songs(path):
+    with open(path) as jsonFile:
         jsonObject = json.load(jsonFile)
         jsonFile.close()
 
