@@ -1,1 +1,1 @@
-songs_path = "spotipy/storag/songs"
+songs_path = "C:/Users/User/PycharmProjects/spotipy/storage/songs"
